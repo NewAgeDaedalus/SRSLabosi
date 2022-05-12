@@ -7,7 +7,6 @@ from Crypto.Hash import HMAC, SHA256
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 
-
 path = os.path.expanduser('~')+'/.Usermgmt/data'
 userPasswToChangePath = os.path.expanduser('~')+'/.Usermgmt/change'
 
